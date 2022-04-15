@@ -1,0 +1,51 @@
+body {background-color: #D0E0FA; color: #0f0059}
+a {color: #da11f0}
+nav {background-color: #ff0303;}
+nav a {color:#2b05e8}
+nav a:hover {background-color: #ff039a;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+.quote {float: right;}
+.first, .second {display: flex; background-color: #fc8403; border-radius: 3em; padding: 10px;}
+.address {margin-right: 50px;}
+.submit {margin-right: 50px}
+.first {margin-bottom: 50px; margin-left: 15px; margin-right: 15px;}
+.second {margin-left: 15px; margin-right: 15px;}
+.address, .email, .submit, .map {margin-left: 10px;}
+.submit {margin: auto;}
+.map {margin: auto;}
+
+
+.heading {text-align: center;}
+.subtext {margin-bottom: 50px; padding-left: 75px; padding-right: 75px; flex: 75%;}
+.icon {width: 30%;}
+.parent, .skillset, .other, .submain {display: flex;}
+aside {background-color: crimson; border-radius: 1em; padding: 50px;}
+.skillset {flex: 75%; padding: 100px;}
+.other, .nothing {flex: 25%;}
+.skillset div {justify-content: space-around;}
+
+.bigphoto {max-width: 100%;}
+.second {flex-wrap: wrap;}
+
+@media only screen and (max-width: 600px) {
+    nav a {max-width: 100%; display: block; padding: 10px;} span {display: none;}
+}
+
+#skip {
+    position: absolute; 
+    left: -999px;
+    background-color: yellow;
+    padding: 5px
+}
+#skip:focus {
+    left: 10px;
+}
+
+
+
+
+
+
+
+
