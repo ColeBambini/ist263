@@ -31,16 +31,24 @@ nav {background-color: white; border-radius: 3em; padding: 25px;}
 #skip:focus {
     left: 10px;
 }
-.dointro {background-color: #112e51; color: white; border-radius: 3em; padding: 20px}
-.recovery, .olympics, .wnba, .rowing, .volleyball {display: flex; padding: 20px;}
-.samples {background-color: #112e51; color: white; border-radius: 3em; padding: 30px;}
-.copy {background-color: #e1f3f8; color: #112e51; padding: 10px; border-radius: 3em;}
-.process {background-color: #e1f3f8; color: #112e51; padding: 20px; border-radius: 3em; margin-right: 10px;}
+.dointro, .otherintro, .videxp {background-color: #112e51; color: white; border-radius: 3em; padding: 20px; text-align: center;}
+.recovery, .olympics, .wnba, .rowing, .volleyball, .campaign, .magazine, .jnlweb {display: flex; padding: 20px;}
+.samples, .allmedia {background-color: #112e51; color: white; border-radius: 3em; padding: 30px;}
+.copy, .right {background-color: #e1f3f8; color: #112e51; padding: 10px; border-radius: 3em;}
+.process, .left {background-color: #e1f3f8; color: #112e51; padding: 20px; border-radius: 3em; margin-right: 10px;}
 .allwork {text-align: center; background-color: white; padding: 20px; border-radius: 15em; margin: 100px;}
 @media only screen and (max-width: 800px) {
     .samples div {flex-wrap: wrap;}
 }
 @media only screen and (max-width: 800px) {
-    .copy, .process {margin: 10px;}
+    .copy, .process, .left, .right {margin: 10px;}
+}
+@media only screen and (max-width: 800px) {
+    .allmedia div {flex-wrap: wrap;}
 }
 .credit {font-size: 10px;}
+.videoheader, .paper, .right {text-align: center;}
+.videoembed {display: flex; justify-content: center; background-color: white; border-radius: 25em; padding: 50px; flex-wrap: wrap;}
+.download {text-align: center; background-color: white; padding: 20px; border-radius: 15em; margin-bottom: 15px;}
+.essayexcerpt {background-color: #112e51; color: white; border-radius: 5em; padding: 30px;}
+.gif, .mag {max-width: 100%; height: auto;}
